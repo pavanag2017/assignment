@@ -9,12 +9,12 @@ public class CalculateFactorial
 	
 	public static void main(String [] args){
 		CalculateFactorial factorial = new CalculateFactorial();
-		factorial.print(10);
-		factorial.print(100);
-		factorial.print(1000);
+		factorial.calculateAndPrint(10);
+		factorial.calculateAndPrint(100);
+		factorial.calculateAndPrint(1000);
 	}
 	
-	public void print(int num){
+	public void calculateAndPrint(int num){
 		if(num < 1){
 			System.out.println("Cannot do factorial of number : " + num);
 			return;
